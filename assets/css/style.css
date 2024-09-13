@@ -89,6 +89,28 @@ header {
 }
 
 .trending {
+  margin: 20px 0px 20px 0px;
   font-family: roboto, sans-serif;
   border-bottom: 1px solid #191919;
+}
+
+.title-trend {
+  display: flex;
+  align-items: center;
+}
+
+.title-trend img {
+  width: 25px;
+}
+
+.title-trend h3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
 }
