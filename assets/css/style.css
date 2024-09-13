@@ -48,11 +48,6 @@ header {
 
 /* MAIN */
 
-.hero::before {
-  content: "";
-  display: inline-block;
-}
-
 .hero {
   font-family: spectral, serif;
   display: flex;
